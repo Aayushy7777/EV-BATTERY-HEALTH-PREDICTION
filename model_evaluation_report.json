@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-22T11:56:57.827482",
+  "model_type": "Random Forest Regressor",
+  "test_samples": 1000,
+  "regression_metrics": {
+    "RMSE": 2.0811342008491778,
+    "MAE": 1.655101611742378,
+    "R\u00b2": 0.9837554878884093,
+    "Min Error": 0.00266208994145245,
+    "Max Error": 7.631817717817114,
+    "Mean Error": 0.04153657175140601
+  },
+  "classification_accuracy": 0.949,
+  "top_features": [
+    {
+      "Feature": "cycle_count",
+      "Importance": 0.9845141225549302
+    },
+    {
+      "Feature": "depth_of_discharge",
+      "Importance": 0.0039033462670798494
+    },
+    {
+      "Feature": "internal_resistance",
+      "Importance": 0.0035882427507895535
+    },
+    {
+      "Feature": "charge_rate",
+      "Importance": 0.0028572737659982414
+    },
+    {
+      "Feature": "avg_temperature",
+      "Importance": 0.0025857058843710497
+    },
+    {
+      "Feature": "discharge_rate",
+      "Importance": 0.002551308776831241
+    }
+  ],
+  "prediction_range": [
+    40.92248976864836,
+    97.61347381340053
+  ],
+  "bucket_distribution": {
+    "End-of-Life": 485,
+    "Moderate": 288,
+    "Healthy": 227
+  }
+}
